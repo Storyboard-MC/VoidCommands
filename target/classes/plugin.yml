@@ -1,0 +1,9 @@
+name: VoidCommands
+version: '1.0-SNAPSHOT'
+main: ca.voidcraft.voidcommands.VoidCommands
+api-version: '1.20'
+commands:
+  map:
+  rules:
+  broadcast:
+    aliases: [bc]
