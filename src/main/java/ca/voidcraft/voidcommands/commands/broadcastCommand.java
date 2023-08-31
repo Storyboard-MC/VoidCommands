@@ -1,7 +1,8 @@
 package ca.voidcraft.voidcommands.commands;
 
 
-import jdk.internal.joptsimple.internal.Strings;
+
+import org.apache.commons.lang3.StringUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -13,9 +14,9 @@ public class broadcastCommand implements CommandExecutor {
     public boolean onCommand(CommandSender commandSender, Command command, String label, String[] args) {
         if (commandSender.hasPermission("voidcommands.broadcast")){
             if(args.length == 0){
-                commandSender.sendMessage("§5VoidCraft &f| §4Please specify a message to send to the whole server!");
+                commandSender.sendMessage("§5VoidCraft §f| §4Please specify a message to send to the whole server!");
             } else {
-                Bukkit.broadcastMessage("§5VoidCraft §f| §c" + Strings.join(args, " "));
+                Bukkit.broadcastMessage("§5VoidCraft §f| §c" + StringUtils.join(args, " "));
             }
         } else {
             commandSender.sendMessage("§5VoidCraft §f| §4No Permissions!");
