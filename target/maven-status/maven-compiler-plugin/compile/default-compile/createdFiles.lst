@@ -1,4 +1,5 @@
 ca\voidcraft\voidcommands\VoidCommands.class
 ca\voidcraft\voidcommands\commands\broadcastCommand.class
 ca\voidcraft\voidcommands\commands\rulesCommand.class
+ca\voidcraft\voidcommands\commands\eventCommand.class
 ca\voidcraft\voidcommands\commands\mapCommand.class

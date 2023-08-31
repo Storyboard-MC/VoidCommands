@@ -7,3 +7,5 @@ commands:
   rules:
   broadcast:
     aliases: [bc]
+  event:
+    aliases: [ebc]
