@@ -19,7 +19,7 @@ public class eventCommand implements CommandExecutor {
                 Bukkit.broadcastMessage("§5VoidCraft §f| §c" + "§6§lEVENT §f: " + StringUtils.join(args, " "));
             }
         } else {
-            commandSender.sendMessage("§5VoidCraft §f| §4No Permissions!");
+            commandSender.sendMessage("§5VoidCraft §f| §4No Permission!");
         }
 
         return true;
