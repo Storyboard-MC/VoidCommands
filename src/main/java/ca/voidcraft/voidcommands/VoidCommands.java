@@ -16,6 +16,7 @@ public final class VoidCommands extends JavaPlugin {
         getCommand("rules").setExecutor(new rulesCommand());
         getCommand("broadcast").setExecutor(new broadcastCommand());
         getCommand("event").setExecutor(new eventCommand());
+
         // Plugin startup logic
 
     }
