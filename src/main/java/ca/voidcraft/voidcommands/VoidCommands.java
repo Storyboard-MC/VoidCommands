@@ -13,7 +13,7 @@ public final class VoidCommands extends JavaPlugin {
         instance = this;
         getCommand("map").setExecutor(new mapCommand());
         getCommand("rules").setExecutor(new rulesCommand());
-        //getCommand("broadcast").setExecutor(new broadcastCommand());
+        getCommand("broadcast").setExecutor(new broadcastCommand());
         // Plugin startup logic
 
     }
