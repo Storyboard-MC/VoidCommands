@@ -16,7 +16,7 @@ public class eventCommand implements CommandExecutor {
             if(args.length == 0){
                 commandSender.sendMessage("§5VoidCraft §f| §4Please tell the event to be sent to the players!");
             } else {
-                Bukkit.broadcastMessage("§5VoidCraft §f| §c" + "§6§lEVENT &f: " + StringUtils.join(args, " "));
+                Bukkit.broadcastMessage("§5VoidCraft §f| §c" + "§6§lEVENT §f: " + StringUtils.join(args, " "));
             }
         } else {
             commandSender.sendMessage("§5VoidCraft §f| §4No Permissions!");
