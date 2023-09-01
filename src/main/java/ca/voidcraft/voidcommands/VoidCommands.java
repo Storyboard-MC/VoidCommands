@@ -12,6 +12,7 @@ public final class VoidCommands extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
+        //Commands Import
         getCommand("map").setExecutor(new mapCommand());
         getCommand("rules").setExecutor(new rulesCommand());
         getCommand("broadcast").setExecutor(new broadcastCommand());
