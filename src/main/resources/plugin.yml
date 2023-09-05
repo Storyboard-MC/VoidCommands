@@ -4,8 +4,12 @@ main: ca.voidcraft.voidcommands.VoidCommands
 api-version: '1.20'
 commands:
   map:
+    description: Shows the map link
   rules:
+    description: Shows the rules link
   broadcast:
+    description: Broadcast a message to the whole server
     aliases: [bc]
   event:
+    description: Broadcast an event that is happening on the server
     aliases: [ebc]
